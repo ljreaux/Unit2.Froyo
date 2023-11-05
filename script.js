@@ -26,7 +26,7 @@ const flavorTracker = {}
 
 function trackFlavors() {
 
-  for (i = 0; i < stringArray.length; i++) {
+  for (let i = 0; i < stringArray.length; i++) {
     const index = stringArray[i]
     if (flavorTracker[index] === undefined) {
       flavorTracker[index] = 1
